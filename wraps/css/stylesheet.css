@@ -1,0 +1,33 @@
+html {
+	background-color: #395d33;
+}
+button {
+	color: #2e8f00;
+	background-color: #ffe800;
+}
+hr {
+	visibility: hidden;
+}
+#imgMain {
+	width: 100%;
+}
+footer {
+	color: #fff;
+	text-align: right;
+}
+fieldset {
+	border: solid;
+	padding: 1%;
+}
+form {
+	position: absolute !important;
+	z-index: 25;
+	top: 10px;
+	left: 10px;
+	background-color: grey;
+	padding: 1%;
+	visibility: hidden;
+}
+form h1 {
+	text-align: right;
+}
