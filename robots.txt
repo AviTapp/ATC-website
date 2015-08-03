@@ -1,5 +1,0 @@
-user-agent: *
-Disallow: /brook.html
-Disallow: /video/
-Disallow: /brook/
-Disallow: /dev/
