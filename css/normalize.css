@@ -505,6 +505,8 @@ th {
   .two-thirds.column              { width: 65.3333333333%; }
 
   .one-half.column                { width: 48%; }
+  
+  .one-quarter.column             { width: 25%; }
 
   /* Offsets */
   .offset-by-one.column,
