@@ -40,8 +40,3 @@ nav {
   font-size: 42px;
   margin-top: 5%;
 }
-
-@font-face {
-  font-family: 'specialElite';
-  src: url('/fonts/SPECIALELITE.TTF');
-}
