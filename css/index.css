@@ -1,26 +1,22 @@
 html {background: #3c5f42;}
 
-.green {
-  background: #cbe6c5;
-}
+.green {background: #c2dbbc;}
 
-.blue {
-  background: #8CA5CF;
-}
+.blue {background: #3361ab;color: #fff;}
 
-.red {
-  background: #F1A8B0;
-}
+.red {background: #e03445;color: #fff;}
 
-.white {
-  background: #F5E783;
-}
+.yellow {background: #ebd323;}
+
+.hidden {visibility: hidden;}
+
 button {
-  width: 100%;
-  line-height: 1.0;
-  height: auto;
   padding: 0;
+  width: 100%;
+  height: auto;
   font-size: 50px;
+  line-height: 3.0;
+  border-radius: 50%;
 }
 
 nav {
@@ -31,4 +27,21 @@ nav {
 #kosher {
   float: right;
   margin-bottom: -100px;
+}
+
+
+#order {
+  font-size: 42px;
+  margin-top: 5%;
+}
+
+#contact {
+  text-align: center;
+  font-size: 42px;
+  margin-top: 5%;
+}
+
+@font-face {
+  font-family: 'specialElite';
+  src: url('/fonts/SPECIALELITE.TTF');
 }
