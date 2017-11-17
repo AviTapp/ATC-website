@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>A Tapp Creation - @Page.Title</title>
+        <link href="~/css/Site.css" rel="stylesheet" />
+        <link href="~/css/normalize.css" rel="stylesheet" />
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <script src="~/js/modernizr-2.6.2.js"></script>
+        <script src="~/js/jquery-1.8.2.min.js"></script>
+        @RenderSection("Scripts", required: false)
+    </head>
+    <body>
+        <div id="page">
+            <header>
+                <p class="site-title"><a href="~/">A Tapp Creation</a></p>
+                <nav>
+                    <ul>
+                        <li><a href="~/">Home</a></li>
+                        <li><a href="~/About">About Us</a></li>
+                        <li><a href="~/Wraps">Wraps</a></li>
+                        <li><a href="~/Bakery">Bakery</a></li>
+                        <li><a href="~/Deli">Meat</a></li>
+                        <li><a href="~/Creamery">Dairy</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="body">
+                @RenderBody()
+            </div>
+            <footer>
+                &copy;@DateTime.Now.Year - A Tapp Creation
+            </footer>
+        </div>
+    </body>
+</html>

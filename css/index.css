@@ -1,0 +1,11 @@
+html{background:#3c5f42;}
+.green{background:#c2dbbc;}
+.blue{background:#3361ab;color:#fff;}
+.red{background:#e03445;color:#fff;}
+.yellow{background:#ebd323;}
+.hidden{visibility:hidden;}
+button{padding:0;width:100%;height:auto;font-size:50px;line-height:3.0;border-radius:50%;}
+nav{text-align:center;color:#3c5f42;}
+#kosher{float:right;margin-bottom:-100px;}
+#order{font-size:42px;margin-top:5%;}
+#contact{text-align:center;font-size:42px;margin-top:5%;}
